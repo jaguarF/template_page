@@ -7,7 +7,7 @@
 	font-family: 'MontserratLight'
 .regular
 	font-family: 'MontserratRegular'
-.semibld 
+.semibold 
 	font-family: 'MontserratSemiBold'
 .ultral
 	font-family: 'MontserratUltraLight'
@@ -45,22 +45,92 @@ section#main
 	height: 583px
 	background: #ef5350
 	color: #ffffff
+	.diagonal-lines
+		position: relative
+		top: -100px
+		left: -350px
+	.phone 
+		position: relative
+		top: -800px
+		left: 30px
+
 	.slogan
+		margin-top: 180px
 		padding-right: 60px
 		h1
 			text-transform: uppercase
 			@extend .regular
 			font-size: 30px
+			line-height: 1.4
 		p
 			@extend .ultral
 			font-size: 18px	
-
+			line-height: 1.2
+		button
+			float: right
+			margin-right: 25px
+			margin-top: 50px
+			text-transform: uppercase
+			@extend .regular
+			font-size: 18px
+			padding: 15px 20px
+			border-radius: 8px
+			background: #04e4a2
+			border: none
 
 
 section#query
-	height: 394px
+	min-height: 394px
 	background: #ffffff
-
+	h4
+		@extend .light
+		font-size: 20px
+		color: #ff8a80
+		line-height: 0.9
+	input
+		border: 2px solid #e3f2fd
+		width: 250px
+		height: 50px
+		padding: 15px 20px
+		border-radius: 4px
+		margin-right: 21px
+		margin-bottom: 17px
+	textarea
+		border: 2px solid #e3f2fd
+		width: 524px
+		height: 100px
+		padding: 15px 20px
+		border-radius: 4px
+		
+		margin-bottom: 15px
+		resize: none
+	button
+		float: right
+		margin-right: 30px
+		margin-top: 0px
+		text-transform: uppercase
+		@extend .semibold
+		font-size: 20px
+		padding: 17px 34px
+		border-radius: 8px
+		background: #ef5350
+		border: none
+		color: #fff
+		margin-bottom: 32px
+	
 footer
+	
 	height: 73px
 	background: #fefcf2
+	text-align: left
+	.row
+		div
+			font-size: 16px
+			@extend .light
+			color: #636363
+			margin-top: 26px
+			.contact-mail::before 
+				content: ""
+				width: 30px
+				height: 24px
+				background: url("../image/mail_icon.png") no-repeat center center

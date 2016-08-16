@@ -5,13 +5,13 @@
 .bold, header .header_lower .logo {
   font-family: MontserratBold; }
 
-.light {
+.light, section#query h4, footer .row div {
   font-family: "MontserratLight"; }
 
-.regular, section#main .slogan h1 {
+.regular, section#main .slogan h1, section#main .slogan button {
   font-family: "MontserratRegular"; }
 
-.semibld {
+.semibold, section#query button {
   font-family: "MontserratSemiBold"; }
 
 .ultral, section#main .slogan p {
@@ -45,20 +45,83 @@ section#main {
   height: 583px;
   background: #ef5350;
   color: #ffffff; }
+  section#main .diagonal-lines {
+    position: relative;
+    top: -100px;
+    left: -350px; }
+  section#main .phone {
+    position: relative;
+    top: -800px;
+    left: 30px; }
   section#main .slogan {
+    margin-top: 180px;
     padding-right: 60px; }
     section#main .slogan h1 {
       text-transform: uppercase;
-      font-size: 30px; }
+      font-size: 30px;
+      line-height: 1.4; }
     section#main .slogan p {
-      font-size: 18px; }
+      font-size: 18px;
+      line-height: 1.2; }
+    section#main .slogan button {
+      float: right;
+      margin-right: 25px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      font-size: 18px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      background: #04e4a2;
+      border: none; }
 
 section#query {
-  height: 394px;
+  min-height: 394px;
   background: #ffffff; }
+  section#query h4 {
+    font-size: 20px;
+    color: #ff8a80;
+    line-height: 0.9; }
+  section#query input {
+    border: 2px solid #e3f2fd;
+    width: 250px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-right: 21px;
+    margin-bottom: 17px; }
+  section#query textarea {
+    border: 2px solid #e3f2fd;
+    width: 524px;
+    height: 100px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    resize: none; }
+  section#query button {
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: #ef5350;
+    border: none;
+    color: #fff;
+    margin-bottom: 32px; }
 
 footer {
   height: 73px;
-  background: #fefcf2; }
+  background: #fefcf2;
+  text-align: left; }
+  footer .row div {
+    font-size: 16px;
+    color: #636363;
+    margin-top: 26px; }
+    footer .row div .contact-mail::before {
+      content: "";
+      width: 30px;
+      height: 24px;
+      background: url("../image/mail_icon.png") no-repeat center center; }
 
 /*# sourceMappingURL=style.css.map */
