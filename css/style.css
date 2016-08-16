@@ -1,0 +1,20 @@
+header .header_upper {
+  background: #04e4a2;
+  height: 25px; }
+header .header_lower {
+  background: #e94643;
+  height: 78px; }
+
+section#main {
+  height: 583px;
+  background: #ef5350; }
+
+section#query {
+  height: 394px;
+  background: #ffffff; }
+
+footer {
+  height: 73px;
+  background: #fefcf2; }
+
+/*# sourceMappingURL=style.css.map */
