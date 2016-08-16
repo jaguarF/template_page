@@ -1,15 +1,61 @@
+
+.gotham
+	font-family: GothamBookRegular
+.bold
+	font-family: MontserratBold
+.light 
+	font-family: 'MontserratLight'
+.regular
+	font-family: 'MontserratRegular'
+.semibld 
+	font-family: 'MontserratSemiBold'
+.ultral
+	font-family: 'MontserratUltraLight'
+
+
+/*================ Шрифты ======================*/
 header
 	.header_upper
 		background: #04e4a2
 		height: 25px
 
 	.header_lower
+		text-align: right
 		background: #e94643
 		height: 78px
+		vertical-align: center
+		.logo 
+			margin-top: 10px
+			@extend .bold
+			font-size: 35px
+			color: #ffffff
+		.contacts
+			margin-top: 25px
+			padding-right: 25px
+			@extend .gotham
+			font-size: 16px
+			text-transform: uppercase
+			a 
+				color: #f9fbe7
+				border-bottom: 3px solid #fdd835
+				&:hover
+					text-decoration: none
 		
 section#main
 	height: 583px
 	background: #ef5350
+	color: #ffffff
+	.slogan
+		padding-right: 60px
+		h1
+			text-transform: uppercase
+			@extend .regular
+			font-size: 30px
+		p
+			@extend .ultral
+			font-size: 18px	
+
+
 
 section#query
 	height: 394px

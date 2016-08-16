@@ -1,13 +1,57 @@
+@charset "UTF-8";
+.gotham, header .header_lower .contacts {
+  font-family: GothamBookRegular; }
+
+.bold, header .header_lower .logo {
+  font-family: MontserratBold; }
+
+.light {
+  font-family: "MontserratLight"; }
+
+.regular, section#main .slogan h1 {
+  font-family: "MontserratRegular"; }
+
+.semibld {
+  font-family: "MontserratSemiBold"; }
+
+.ultral, section#main .slogan p {
+  font-family: "MontserratUltraLight"; }
+
+/*================ ╨и╤А╨╕╤Д╤В╤Л ====================== */
 header .header_upper {
   background: #04e4a2;
   height: 25px; }
 header .header_lower {
+  text-align: right;
   background: #e94643;
-  height: 78px; }
+  height: 78px;
+  vertical-align: center; }
+  header .header_lower .logo {
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ffffff; }
+  header .header_lower .contacts {
+    margin-top: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    text-transform: uppercase; }
+    header .header_lower .contacts a {
+      color: #f9fbe7;
+      border-bottom: 3px solid #fdd835; }
+      header .header_lower .contacts a:hover {
+        text-decoration: none; }
 
 section#main {
   height: 583px;
-  background: #ef5350; }
+  background: #ef5350;
+  color: #ffffff; }
+  section#main .slogan {
+    padding-right: 60px; }
+    section#main .slogan h1 {
+      text-transform: uppercase;
+      font-size: 30px; }
+    section#main .slogan p {
+      font-size: 18px; }
 
 section#query {
   height: 394px;
