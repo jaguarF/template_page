@@ -14,6 +14,8 @@
 
 
 /*================ Шрифты ======================*/
+
+
 header
 	.header_upper
 		background: #04e4a2
@@ -47,13 +49,18 @@ section#main
 	color: #ffffff
 	.diagonal-lines
 		position: relative
+		width: 30%
+		height: auto
 		top: -100px
 		left: -350px
 	.phone 
 		position: relative
-		top: -800px
+		top: -787px
 		left: 30px
-
+		width: 30%
+		height: auto
+	.col-sm-6 
+		max-height: 500px
 	.slogan
 		margin-top: 180px
 		padding-right: 60px
@@ -80,8 +87,9 @@ section#main
 
 
 section#query
-	min-height: 394px
+	min-height: 400px
 	background: #ffffff
+
 	h4
 		@extend .light
 		font-size: 20px
@@ -105,8 +113,8 @@ section#query
 		margin-bottom: 15px
 		resize: none
 	button
-		float: right
-		margin-right: 30px
+		float: left
+		margin-left: 400px
 		margin-top: 0px
 		text-transform: uppercase
 		@extend .semibold
@@ -116,7 +124,7 @@ section#query
 		background: #ef5350
 		border: none
 		color: #fff
-		margin-bottom: 32px
+		
 	
 footer
 	
@@ -128,9 +136,14 @@ footer
 			font-size: 16px
 			@extend .light
 			color: #636363
-			margin-top: 26px
+			margin-top: 27px
 			.contact-mail::before 
+				display: inline-block
 				content: ""
 				width: 30px
 				height: 24px
 				background: url("../image/mail_icon.png") no-repeat center center
+				vertical-align: middle
+				margin-right: 20px
+body
+	height: 1150px
