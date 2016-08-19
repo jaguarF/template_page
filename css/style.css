@@ -46,15 +46,13 @@ section#main {
   background: #ef5350;
   color: #ffffff; }
   section#main .diagonal-lines {
-    position: relative;
-    width: 30%;
-    height: auto;
-    top: -100px;
-    left: -350px; }
+    position: absolute;
+    top: -367px;
+    left: -820px; }
   section#main .phone {
-    position: relative;
-    top: -787px;
-    left: 30px;
+    position: absolute;
+    top: 65px;
+    left: 50px;
     width: 30%;
     height: auto; }
   section#main .col-sm-6 {
